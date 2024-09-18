@@ -36,6 +36,3 @@ public class DashboardServiceImpl implements DashboardService {
 		return quotes[nextInt].getText();
 	}
 }
-
-
-

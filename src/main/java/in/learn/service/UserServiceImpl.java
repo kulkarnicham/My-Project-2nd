@@ -127,7 +127,7 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public boolean resetPwd(ResetPwdForm formObj) {
-		
+
 		Optional<User> findById = userRepo.findById(formObj.getUserId());
 		if (findById.isPresent()) {
 			User user = findById.get();
